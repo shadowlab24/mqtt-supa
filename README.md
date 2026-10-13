@@ -18,7 +18,7 @@ This has been tested in an Orange Pi device for days and sent thousands of messa
 
 ## Requirements
 
-- Python 3.9+
+- Python 3.9+ with venv package.
 - Mosquitto (or any MQTT broker)
 - A Supabase project
 
@@ -50,7 +50,7 @@ ALTER TABLE public.mqtt_messages ENABLE ROW LEVEL SECURITY;
 
 ## Installation
 
-1. Create a folder and a virtual environment:
+1. Create a folder and a virtual environment. If virtualenv package is not installed, install it first (for example with `sudo apt install python3.13-venv` or any other command depending on your distro).
 
 ```bash
 cd ~
