@@ -167,6 +167,8 @@ Rows are deleted from `failed_messages.db` as they are successfully sent.
 If a batch fails the script stops and leaves remaining rows untouched —
 run it again once the issue is resolved.
 
+You could consider adding a periodic task that uploads these rows.
+
 ## Donations
 
 If this helped you, consider donating.
