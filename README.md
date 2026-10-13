@@ -59,7 +59,7 @@ cd mqtt-supa
 python3 -m venv .venv
 ```
 
-2. Place `mqtt_supa.py`, `retry_failed.py`, `requirements.txt`, and `.env` in that folder.
+2. Place `mqtt_supa.py`, `retry_failed.py`, `requirements.txt`, and `.env.example` in that folder.
 
 3. Install requirements:
 
